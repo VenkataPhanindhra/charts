@@ -109,5 +109,71 @@
             </objects>
             <point key="canvasLocation" x="2059" y="-323"/>
         </scene>
+        <!--Round Circle Bar Chart View Controller-->
+        <scene sceneID="4jf-zP-EMh">
+            <objects>
+                <viewController id="EOK-O5-tBY" customClass="RoundCircleBarChartViewController" customModule="ChartApplicationSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RVC-ia-PK8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JR0-NA-58D" customClass="PieChartView" customModule="Charts">
+                                <rect key="frame" x="16" y="183.5" width="343" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="NRU-f2-IYs"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="JR0-NA-58D" firstAttribute="centerX" secondItem="RVC-ia-PK8" secondAttribute="centerX" id="1L8-Z9-g3W"/>
+                            <constraint firstItem="zOl-ia-yef" firstAttribute="trailing" secondItem="JR0-NA-58D" secondAttribute="trailing" constant="16" id="ddb-ue-b86"/>
+                            <constraint firstItem="JR0-NA-58D" firstAttribute="leading" secondItem="zOl-ia-yef" secondAttribute="leading" constant="16" id="s45-X8-RZf"/>
+                            <constraint firstItem="JR0-NA-58D" firstAttribute="centerY" secondItem="RVC-ia-PK8" secondAttribute="centerY" id="wRQ-p5-wjt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zOl-ia-yef"/>
+                    </view>
+                    <connections>
+                        <outlet property="roundPieChart" destination="JR0-NA-58D" id="Pqf-fN-YRK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VRe-q9-tQI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1233" y="-752"/>
+        </scene>
+        <!--Stacked ColumnVC-->
+        <scene sceneID="soE-fC-5PA">
+            <objects>
+                <viewController id="s3u-fG-0dZ" customClass="StackedColumnVC" customModule="ChartApplicationSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mld-QF-7Pl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2lL-6p-7w8" customClass="BarChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="183.5" width="375" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="10r-ls-sOO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2lL-6p-7w8" firstAttribute="leading" secondItem="diH-eQ-nv7" secondAttribute="leading" id="Qpg-Se-iHj"/>
+                            <constraint firstItem="2lL-6p-7w8" firstAttribute="centerY" secondItem="mld-QF-7Pl" secondAttribute="centerY" id="dqB-52-8Nm"/>
+                            <constraint firstItem="2lL-6p-7w8" firstAttribute="centerX" secondItem="mld-QF-7Pl" secondAttribute="centerX" id="jlt-ft-Q8k"/>
+                            <constraint firstItem="diH-eQ-nv7" firstAttribute="trailing" secondItem="2lL-6p-7w8" secondAttribute="trailing" id="lrO-Y5-7Y5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="diH-eQ-nv7"/>
+                    </view>
+                    <connections>
+                        <outlet property="stackBarChartView" destination="2lL-6p-7w8" id="eMy-jy-3Dh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M2g-wm-OrS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="-734"/>
+        </scene>
     </scenes>
 </document>

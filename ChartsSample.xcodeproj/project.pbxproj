@@ -21,6 +21,8 @@
 		1A6456D721E145B20085EC7F /* MultipleLineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6456D621E145B20085EC7F /* MultipleLineChartViewController.swift */; };
 		1E83A2356791102E01304214 /* Pods_ChartsSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE4F9F712A9129F12F5E871 /* Pods_ChartsSampleUITests.framework */; };
 		5ABC33F64D1AA69CB12D5ACC /* Pods_ChartsSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A169F1982BF3A06F2FDB84D /* Pods_ChartsSample.framework */; };
+		7D8CE24621F877F900C14E5D /* RoundCircleBarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8CE24521F877F900C14E5D /* RoundCircleBarChartViewController.swift */; };
+		7D8CE24821F878EA00C14E5D /* StackedColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8CE24721F878E900C14E5D /* StackedColumnViewController.swift */; };
 		DA54BEA5EC788D58E38E34DD /* Pods_ChartsSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E16F874202EB03C3EBDA581 /* Pods_ChartsSampleTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,8 @@
 		6E16F874202EB03C3EBDA581 /* Pods_ChartsSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartsSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8BA6CAFEDABA2203A89FCB /* Pods-ChartsSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsSampleUITests/Pods-ChartsSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7920A20929010219C0D78562 /* Pods-ChartsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsSample/Pods-ChartsSample.debug.xcconfig"; sourceTree = "<group>"; };
+		7D8CE24521F877F900C14E5D /* RoundCircleBarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCircleBarChartViewController.swift; sourceTree = "<group>"; };
+		7D8CE24721F878E900C14E5D /* StackedColumnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackedColumnViewController.swift; sourceTree = "<group>"; };
 		9EE4F9F712A9129F12F5E871 /* Pods_ChartsSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartsSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6052DF263C9A0B2A12C50BF /* Pods-ChartsSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsSampleTests/Pods-ChartsSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +133,8 @@
 				1A6456D021E130F60085EC7F /* ViewController2.swift */,
 				1A6456D621E145B20085EC7F /* MultipleLineChartViewController.swift */,
 				1A6456CC21E113E00085EC7F /* ChartsViewControllerPoints.swift */,
+				7D8CE24521F877F900C14E5D /* RoundCircleBarChartViewController.swift */,
+				7D8CE24721F878E900C14E5D /* StackedColumnViewController.swift */,
 				1A6456A021E104EC0085EC7F /* Main.storyboard */,
 				1A6456A321E104ED0085EC7F /* Assets.xcassets */,
 				1A6456A521E104ED0085EC7F /* LaunchScreen.storyboard */,
@@ -409,7 +415,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D8CE24821F878EA00C14E5D /* StackedColumnViewController.swift in Sources */,
 				1A6456CD21E113E00085EC7F /* ChartsViewControllerPoints.swift in Sources */,
+				7D8CE24621F877F900C14E5D /* RoundCircleBarChartViewController.swift in Sources */,
 				1A6456D121E130F60085EC7F /* ViewController2.swift in Sources */,
 				1A64569F21E104EC0085EC7F /* ViewController.swift in Sources */,
 				1A6456D721E145B20085EC7F /* MultipleLineChartViewController.swift in Sources */,
