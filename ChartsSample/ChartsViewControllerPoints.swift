@@ -13,7 +13,7 @@ class ChartsViewControllerPoints: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //pie chart middle values
+        //pie chart middle values names like text or values Ex: remaing value 620
         
         /* let centerText = NSMutableAttributedString(string: "Charts\nby Daniel Cohen Gindi")
          centerText.setAttributes([.font : UIFont(name: "HelveticaNeue-Light", size: 13)!,
@@ -106,4 +106,12 @@ class ChartsViewControllerPoints: UIViewController {
     }
     */
 
+    
+    //For scroll Enable Purpose to do after
+    
+    /*chart.setVisibleXRangeMaximum(30)
+     AFTER the data has been set, and calling
+     chart.scaleYEnabled = false & chart.scaleXEnabled = true
+     */
+    
 }

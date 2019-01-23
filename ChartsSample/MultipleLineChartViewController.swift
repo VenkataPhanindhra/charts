@@ -65,6 +65,20 @@ class MultipleLineChartViewController: UIViewController {
         lineChart.highlightPerTapEnabled = false
         lineChart.borderColor = UIColor.orange
         
+        
+//        lineChart.scaleYEnabled = false
+//        lineChart.scaleXEnabled = true
+
+        
+        
+        
+        lineChart.doubleTapToZoomEnabled = false
+        
+        
+        
+        //lineChart.highlightValues([])
+        
+        
         let marker = BalloonMarker(color: .clear,
                                    font: UIFont.systemFont(ofSize: 10.0, weight: UIFont.Weight.bold),
                                    textColor: .white,
@@ -81,7 +95,7 @@ class MultipleLineChartViewController: UIViewController {
         //        lineChart.pinchZoomEnabled = false
         //        lineChart.doubleTapToZoomEnabled = false
         //        lineChart.xAxis.drawGridLinesEnabled = false
-        ////        lineChart.leftAxis.resetCustomAxisMin = 0.0
+        //        lineChart.leftAxis.resetCustomAxisMin = 0.0
         //        lineChart.autoScaleMinMaxEnabled = false
         //        lineChart.leftAxis.drawGridLinesEnabled = false
         //        lineChart.rightAxis.enabled = false
@@ -108,15 +122,6 @@ class MultipleLineChartViewController: UIViewController {
         let data6 = ChartDataEntry.init(x: 11, y: 18)
         let data7 = ChartDataEntry.init(x: 13, y: 30)
         
-        lineChartEntry.append(data1)
-        lineChartEntry.append(data2)
-        lineChartEntry.append(data3)
-        lineChartEntry.append(data4)
-        lineChartEntry.append(data5)
-        lineChartEntry.append(data6)
-        lineChartEntry.append(data7)
-        
-        
         let data8 = ChartDataEntry.init(x: 15, y: 5)
         let data9 = ChartDataEntry.init(x: 17, y: 10)
         let data10 = ChartDataEntry.init(x: 19, y: 15)
@@ -125,6 +130,13 @@ class MultipleLineChartViewController: UIViewController {
         let data13 = ChartDataEntry.init(x: 24, y: 18)
         let data14 = ChartDataEntry.init(x: 26, y: 30)
         
+        lineChartEntry.append(data1)
+        lineChartEntry.append(data2)
+        lineChartEntry.append(data3)
+        lineChartEntry.append(data4)
+        lineChartEntry.append(data5)
+        lineChartEntry.append(data6)
+        lineChartEntry.append(data7)
         
         lineChartEntry.append(data8)
         lineChartEntry.append(data9)
@@ -162,13 +174,7 @@ class MultipleLineChartViewController: UIViewController {
         let dat16 = ChartDataEntry.init(x: 11, y: 18)
         let dat17 = ChartDataEntry.init(x: 13, y: 30)
         
-        lineChartEntry1.append(dat11)
-        lineChartEntry1.append(dat12)
-        lineChartEntry1.append(dat13)
-        lineChartEntry1.append(dat14)
-        lineChartEntry1.append(dat15)
-        lineChartEntry1.append(dat16)
-        lineChartEntry1.append(dat17)
+        
         
         let dat18 = ChartDataEntry.init(x: 15, y: 5)
         let dat19 = ChartDataEntry.init(x: 17, y: 10)
@@ -178,13 +184,20 @@ class MultipleLineChartViewController: UIViewController {
         let dat113 = ChartDataEntry.init(x: 24, y: 28)
         let dat114 = ChartDataEntry.init(x: 26, y: 10)
         
+        lineChartEntry1.append(dat11)
+        lineChartEntry1.append(dat12)
+        lineChartEntry1.append(dat13)
+        lineChartEntry1.append(dat14)
+        lineChartEntry1.append(dat15)
+        lineChartEntry1.append(dat16)
+        lineChartEntry1.append(dat17)
         
         lineChartEntry1.append(dat18)
         lineChartEntry1.append(dat19)
-//        lineChartEntry1.append(dat110)
-//        lineChartEntry1.append(dat111)
-//        lineChartEntry1.append(dat112)
-//        lineChartEntry1.append(dat113)
+        lineChartEntry1.append(dat110)
+        lineChartEntry1.append(dat111)
+        lineChartEntry1.append(dat112)
+        lineChartEntry1.append(dat113)
         lineChartEntry1.append(dat114)
         
         
@@ -206,15 +219,13 @@ class MultipleLineChartViewController: UIViewController {
         set2.lineWidth = 0
         
         
-        
-        
-        
-        
         let data = LineChartData(dataSets: [set1,set2])
-        
         lineChart.data = data
         
-        
+//        lineChart.dragEnabled = true
+//        lineChart.setVisibleXRangeMaximum(10)
+//        lineChart.data?.highlightEnabled = false
+
         
     }
     
