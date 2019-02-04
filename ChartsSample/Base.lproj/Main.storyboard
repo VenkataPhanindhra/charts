@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uCr-pg-Lyd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OCs-bB-VOj">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChartsSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,15 +35,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="mxp-37-3Ue"/>
+                    <navigationItem key="navigationItem" id="TIv-nA-hxf">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="Mgs-oY-gQ9"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="lineChart" destination="sE4-LK-nvB" id="Yth-MB-vXd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="2192.8000000000002" y="758.77061469265368"/>
         </scene>
-        <!--View Controller2-->
+        <!--Item-->
         <scene sceneID="JfV-L5-1cl">
             <objects>
                 <viewController id="2uq-EL-WUV" customClass="ViewController2" customModule="ChartsSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -68,15 +72,20 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9sM-hx-yld"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="gAm-mJ-ara"/>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="Z8g-qA-uK7"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="lineChart" destination="lfU-T9-Hmb" id="Ty7-ME-ede"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2p7-ae-MFq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1022" y="-64"/>
+            <point key="canvasLocation" x="2192.8000000000002" y="1507.1964017991006"/>
         </scene>
-        <!--Multiple Line Chart View Controller-->
+        <!--Item-->
         <scene sceneID="Q8S-iV-Ooa">
             <objects>
                 <viewController id="uCr-pg-Lyd" customClass="MultipleLineChartViewController" customModule="ChartsSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -101,15 +110,20 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Zks-gD-yox"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="M8p-t3-PZp"/>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="HXy-cI-aU5"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="lineChart" destination="f49-i7-K0n" id="1XZ-rb-G92"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="inm-Y9-6dL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2059" y="-323"/>
+            <point key="canvasLocation" x="2192.8000000000002" y="2264.617691154423"/>
         </scene>
-        <!--Round Circle Bar Chart View Controller-->
+        <!--Item-->
         <scene sceneID="4jf-zP-EMh">
             <objects>
                 <viewController id="EOK-O5-tBY" customClass="RoundCircleBarChartViewController" customModule="ChartApplicationSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -134,15 +148,20 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zOl-ia-yef"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="l5q-VR-5Q3"/>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="8ga-OL-a8i"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="roundPieChart" destination="JR0-NA-58D" id="Pqf-fN-YRK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VRe-q9-tQI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1233" y="-752"/>
+            <point key="canvasLocation" x="2192.8000000000002" y="2979.7601199400301"/>
         </scene>
-        <!--Stacked ColumnVC-->
+        <!--Item-->
         <scene sceneID="soE-fC-5PA">
             <objects>
                 <viewController id="s3u-fG-0dZ" customClass="StackedColumnVC" customModule="ChartApplicationSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -167,13 +186,35 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="diH-eQ-nv7"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="J8d-AQ-1U1"/>
                     <connections>
                         <outlet property="stackBarChartView" destination="2lL-6p-7w8" id="eMy-jy-3Dh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M2g-wm-OrS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="-734"/>
+            <point key="canvasLocation" x="2192.8000000000002" y="3698.5007496251878"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="VRU-Tc-6YT">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="OCs-bB-VOj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5JV-9r-gBs">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="sqa-1b-Pru"/>
+                        <segue destination="2uq-EL-WUV" kind="relationship" relationship="viewControllers" id="ccB-YV-NVO"/>
+                        <segue destination="uCr-pg-Lyd" kind="relationship" relationship="viewControllers" id="cqA-Y3-isR"/>
+                        <segue destination="EOK-O5-tBY" kind="relationship" relationship="viewControllers" id="sSj-ZJ-jad"/>
+                        <segue destination="s3u-fG-0dZ" kind="relationship" relationship="viewControllers" id="aci-8Z-2D2"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f1v-df-Xza" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="487" y="1993"/>
         </scene>
     </scenes>
 </document>
