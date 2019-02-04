@@ -13,6 +13,8 @@ class ChartsViewControllerPoints: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //POINTS PHANINDHRA
+        
         //pie chart middle values names like text or values Ex: remaing value 620
         
         /* let centerText = NSMutableAttributedString(string: "Charts\nby Daniel Cohen Gindi")

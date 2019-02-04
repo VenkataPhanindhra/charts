@@ -158,7 +158,9 @@ class ViewController2: UIViewController {
         
         lineChart.data = data
         
-        
+        lineChart.dragEnabled = true
+        lineChart.setVisibleXRangeMaximum(5)
+        lineChart.data?.highlightEnabled = false
         
     }
     

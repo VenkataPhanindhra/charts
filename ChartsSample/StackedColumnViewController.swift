@@ -23,7 +23,7 @@ class StackedColumnVC: UIViewController {
         stackBarChartView.doubleTapToZoomEnabled = false
         stackBarChartView.highlightPerDragEnabled = false
        // stackBarChartView.isPinchZoomEnabled = false
-       //
+       
         
         setup(chartView: stackBarChartView)
         setBarChartData()
